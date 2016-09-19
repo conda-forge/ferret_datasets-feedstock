@@ -6,12 +6,12 @@ package:
 
 source:
     fn: ferret_datasets-{{ version }}.tar.gz
-    url: https://github.com/NOAA-PMEL/PyFerret/releases/download/v{{ version }}-final/FerretDatasets.tar.gz
-    sha256: 3d735fd3e952e01646894beea91b39c2adbfde087bcfec2a78ebef189048213f
+    url: https://github.com/NOAA-PMEL/FerretDatasets/archive/v{{ version }}.tar.gz
+    sha256: 03f48624b141f15fb67cfb19bf9937dc2cc13b3c280e08caf46e15e4b2b71542
 
 build:
     number: 0
-    skip: True  # [win or py3k or osx]
+    skip: True  # [win or py3k]
 
 requirements:
     build:
