@@ -1,4 +1,4 @@
-{% set version = "7.1.0" %}
+{% set version = "7.4" %}
 
 package:
   name: ferret_datasets
@@ -7,7 +7,7 @@ package:
 source:
   fn: ferret_datasets-{{ version }}.tar.gz
   url: https://github.com/NOAA-PMEL/FerretDatasets/archive/v{{ version }}.tar.gz
-  sha256: 6a498eab8803ff4df9b95ff6dcfe1232822c4d2ab1e93c442bd02be52e335771
+  sha256: eb82653ee960a3e71e1fb2ae686dbe6570e82ed6878da18ece4435c49eb285e5
 
 build:
   number: 0
