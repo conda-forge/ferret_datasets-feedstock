@@ -14,14 +14,16 @@ Summary: Data for pyferret examples.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ferret_datasets-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ferret_datasets-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/ferret_datasets-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ferret_datasets-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/ferret_datasets-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/ferret_datasets-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/ferret_datasets-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/ferret_datasets-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ferret_datasets/badges/version.svg)](https://anaconda.org/conda-forge/ferret_datasets)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ferret_datasets/badges/downloads.svg)](https://anaconda.org/conda-forge/ferret_datasets)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ferret_datasets-green.svg)](https://anaconda.org/conda-forge/ferret_datasets) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ferret_datasets.svg)](https://anaconda.org/conda-forge/ferret_datasets) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ferret_datasets.svg)](https://anaconda.org/conda-forge/ferret_datasets) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ferret_datasets.svg)](https://anaconda.org/conda-forge/ferret_datasets) |
 
 Installing ferret_datasets
 ==========================

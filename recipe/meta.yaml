@@ -10,20 +10,15 @@ source:
   sha256: eb82653ee960a3e71e1fb2ae686dbe6570e82ed6878da18ece4435c49eb285e5
 
 build:
-  number: 0
-  skip: True  # [win or py3k]
+  number: 1
+  skip: True  # [win]
 
 requirements:
   build:
-    - python
-    - pyferret
   run:
-    - python
-    - pyferret
 
 test:
   imports:
-    - pyferret
 
 about:
   home: http://ferret.pmel.noaa.gov/Ferret
