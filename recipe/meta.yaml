@@ -24,10 +24,11 @@ about:
   home: http://ferret.pmel.noaa.gov/Ferret
   license: MIT
   license_file: LICENSE
-  summary: 'Data for pyferret examples.'
+  summary: 'Data for pyferret examples'
 
 extra:
   recipe-maintainers:
     - eugeneburger
-    - karlmsmith
+    - josborne-noaa
+    - karlmattsmith
     - ocefpaf
