@@ -1,4 +1,4 @@
-{% set version = "7.4" %}
+{% set version = "7.6" %}
 
 package:
   name: ferret_datasets
@@ -7,10 +7,10 @@ package:
 source:
   fn: ferret_datasets-{{ version }}.tar.gz
   url: https://github.com/NOAA-PMEL/FerretDatasets/archive/v{{ version }}.tar.gz
-  sha256: eb82653ee960a3e71e1fb2ae686dbe6570e82ed6878da18ece4435c49eb285e5
+  sha256: b2fef758ec1817c1c19e6225857ca3a82c727d209ed7fd4697d45c5533bb2c72
 
 build:
-  number: 1
+  number: 0
   skip: True  # [win]
 
 requirements:
@@ -24,7 +24,7 @@ about:
   home: http://ferret.pmel.noaa.gov/Ferret
   license: MIT
   license_file: LICENSE
-  summary: 'Data for pyferret examples'
+  summary: 'Data for PyFerret examples'
 
 extra:
   recipe-maintainers:
